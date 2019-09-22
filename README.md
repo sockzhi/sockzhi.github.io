@@ -1,2 +1,2 @@
-# binaryzhi_blog
+# sockzhi_blog
 zhi's blog
