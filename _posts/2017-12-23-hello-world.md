@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Hello World!
-tags: Hydrogen
+tags: zhi
 stickie: true
 ---
 
-Welcome to Hydrogen!<br>If you saw this post, your blog has been successfully deployed.So enjoy the fun of writing now!
+Welcome to zhi's blog!<br>
 
-> Hello Hydrogen!
+> Hello World!
