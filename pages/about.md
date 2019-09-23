@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: about
 tagline: 关于我 ~
@@ -10,18 +10,12 @@ permalink: /about.html
 
 你可以通过以下方式联系作者
 
-QQ: 1316341442
+QQ: 保密
 
-Email: <a href="mailto:lk@atlinker.cn">lk@atlinker.cn</a>
+Email: <a href="mailto:lk@atlinker.cn">hzhi1995@gmail.com</a>
 
-Github: [link9596](https://github.com/link9596)
+Github: 再说吧
 
 ## #捐助我
 
-本主题使用免费，也是作者长期工作的结晶，如果你喜欢主题\~想支持作者，欢迎给作者捐赠~
-
 <center>扫下方付款二维码即可向作者捐赠!</center>
-
-![wechat](https://atlinker.cn/pay/wechat.png)
-
-![pay](https://atlinker.cn/pay/apay.png)
