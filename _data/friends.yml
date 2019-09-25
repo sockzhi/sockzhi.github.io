@@ -1,12 +1,7 @@
-- name: Link
+- name: Î¢²©
   image: https://atlinker.cn/avatar/avatar.png
-  url: https://atlinker.cn/
-  describe: Link's Blog
-
-- name: Daily
-  image: https://atlinker.cn/avatar/default.png
-  url: httpsï¼š//linker.ml/daily/
-  describe: Daily
+  url: https://weibo.com/u/6709920014?is_all=1
+  describe: Î¢²©
 
 # - name: Links Name
 #  image: http://example.com/img.png
