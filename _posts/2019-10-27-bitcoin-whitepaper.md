@@ -26,7 +26,7 @@
 >
 > 
 
-![比特币 2019-11-10 141624](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 141624.png){width="6.005555555555555e-2in" height="9.022222222222222e-2in"}
+![比特币 2019-11-10 141624](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20141624.png?raw=true){width="6.005555555555555e-2in" height="9.022222222222222e-2in"}
 
 > The problem of course is the payee can\'t verify that one of the owners did not double- spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.
 >
@@ -36,7 +36,7 @@
 
 > The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post \[2-5\]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
 
-![](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 141708.png){width="0.32916666666666666in" height="0.24861111111111112in"}
+![](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20141708.png?raw=true){width="0.32916666666666666in" height="0.24861111111111112in"}
 
 2
 
@@ -46,7 +46,7 @@
 >
 > For our timestamp network, we implement the proof- of-work by incrementing a nonce in the block until a value is found that gives the block\'s hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
 
-![](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 141732.png){width="0.1in" height="6.944444444444445e-2in"}
+![](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20141732.png?raw=true){width="0.1in" height="6.944444444444445e-2in"}
 
 > The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of- work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
 >
@@ -86,7 +86,7 @@
 
 > Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block\'s hash, transactions are hashed in a Merkle Tree \[7\]\[2\]\[5\], with only the root included in the block\'s hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.
 
-![](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 141800.png){width="4.127777777777778in" height="2.0694444444444446in"}
+![](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20141800.png?raw=true){width="4.127777777777778in" height="2.0694444444444446in"}
 
 > A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes \* 6 \* 24 \* 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore\'s Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
 
@@ -96,7 +96,7 @@
 
 > It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he\'s convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it\'s timestamped in. He can\'t check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
 
-![](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 141832.png){width="4.915277777777778in" height="1.6958333333333333in"}
+![](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20141832.png?raw=true){width="4.915277777777778in" height="1.6958333333333333in"}
 
 > As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker\'s fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user\'s software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
 
@@ -104,7 +104,7 @@
 
 > Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
 
-![](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 141858.png){width="1.5444444444444445in" height="0.9236111111111112in"}
+![](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20141858.png?raw=true){width="1.5444444444444445in" height="0.9236111111111112in"}
 
 > It should be noted that fan -out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction\'s history.
 
@@ -114,7 +114,7 @@
 >
 > The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the \"tape\", is made public, but without telling who the parties were.
 
-![](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 141921.png){width="0.10694444444444444in" height="7.361111111111111e-2in"}
+![](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20141921.png?raw=true){width="0.10694444444444444in" height="7.361111111111111e-2in"}
 
 > As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
 >
@@ -132,7 +132,7 @@
 >
 > *qz* = probability the attacker will ever catch up from z blocks behind
 >
-> ![](C:\Users\hzhi1\OneDrive\图片\屏幕快照\比特币 2019-11-10 142319.png){:width="100" height="100"}
+> ![](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20142319.png?raw=true){:width="100" height="100"}
 
 6
 
@@ -145,15 +145,15 @@
 > The recipient waits until the transaction has been added to a block and *z* blocks have been linked after it. He doesn\'t know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker\'s potential progress will be a Poisson distribution with expected value:
 >
 
-![比特币 2019-11-10 142319](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 142345.png)
+![比特币 2019-11-10 142319](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20142345.png?raw=true)
 
 > To get the probability the attacker could still catch up now, we multiply the Poisson density for each amount of progress he could have made by the probability he could catch up from that point:
 >
-> ![比特币 2019-11-10 142409](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 142409.png)
+> ![比特币 2019-11-10 142409](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20142409.png?raw=true)
 
 > Rearranging to avoid summing the infinite tail of the distribution\...
 >
-> ![比特币 2019-11-10 142432](..\photos\2019-11-10_bitcoin\比特币 2019-11-10 142432.png)
+> ![比特币 2019-11-10 142432](https://github.com/sockzhi/sockzhi_blog/blob/master/photos/2019-11-10_bitcoin/%E6%AF%94%E7%89%B9%E5%B8%81%202019-11-10%20142409.png?raw=true)
 
 > Converting to C code\...
 >
