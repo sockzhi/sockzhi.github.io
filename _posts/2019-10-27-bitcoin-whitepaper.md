@@ -1,10 +1,4 @@
-#比特币白皮书（中英对照）
-
-<html>
-    <table style="margin-left: auto; margin-right: auto;">
-        <tr>
-            <td>
-                <!--English-->
+# 比特币白皮书（中英对照）
 
 <center><strong>Bitcoin: A Peer-to-Peer Electronic Cash System</strong></center>
 <center>Satoshi Nakamoto</center>
@@ -239,12 +233,3 @@ Solving for P less than 0.1%...
 8. W. Feller, \"An introduction to probability theory and its applications,\" 1957.
 
 9
-            </td>
-            <td>
-                <!--中文-->
-                待续
-            </td>
-        </tr>
-    </table>
-
-</html>
