@@ -1,46 +1,21 @@
-﻿title: zhi #博客标题
-description: Just Blog. #博客描述
-keywords: blog,css,html,php #博客关键字
-author: "zhi"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-#title hide and show
-hide: (つェ⊂)我藏好啦
-show: ´∇｀ 呀被发现啦~ 
-
-baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "blog.binaryzhi.com" # change this to the base hostname & protocol for your site
-buildtime: "1569254400" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
-           #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
-
-PJAX: true #启用PJAX，会与评论系统冲突（如不用评论系统建议开启）
-
-paginate: 8 #同时显示的最大文章数，超过自动分页
-paginate_path: "page:num"
-
-background: https://api.dujin.org/bing/1920.php
-theme_color: 546E7A
-
-google_analytics:
-# zhi-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-zhi-blog:
-  date_format: "%b %-d, %Y"
-
-#MathJax switch
-MathJax: false
-
-#install emoji
-plugins:
-  - jemoji
-
-# social account
-image:
-twitter:
-  username:
-#  site:
-facebook:
-  #publisher: null
-  #profile_id: null
-  app_id: null
-  #authors: null
-#  admins:
+# Site settings
+title: Your awesome title
+author: Jekyll Writer
+description: > # this means to ignore newlines until "baseurl:"
+  This theme is disigned based on Mailbox Blog, and licensed under MIT.
+  This theme is also default theme for new site created by Jekyll Writer.
+permalink: /:year/:month/:day/:title/
+paginate: 6
+paginate_path: "/page/:num/"
+twitter_username: jekyllwriter
+github_username:  jekyllwriter
+gems: [jekyll-paginate]
+markdown: kramdown
+baseurl: "/sockzhi_blog"

@@ -1,9 +1,0 @@
-- name: weibo
-  image: https://atlinker.cn/avatar/avatar.png
-  url: https://weibo.com/u/6709920014?is_all=1
-  describe: weibo
-
-# - name: Links Name
-#  image: http://example.com/img.png
-#  url: https://example.com
-#  describe: Write something...
