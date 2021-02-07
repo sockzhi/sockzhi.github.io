@@ -36,6 +36,15 @@ iface br0 inet dhcp
 bridge_ports enp5s0
 ```
 enp5s0为host机器连到路由器上的网卡，根据实际情况修改（因为此网卡由路由器分配指定ip所以此处使用dhcp模式，原网卡使用static模式需要进行相应static配置）
+
+如果未设置ipv4转发，修改如下文件
+```
+sudo vim /etc/sysctl.conf
+```
+取消如下行的注释
+```
+net.ipv4.ip_forward = 1
+```
 保存后重启服务器
 
 创建tap网络启动脚本
