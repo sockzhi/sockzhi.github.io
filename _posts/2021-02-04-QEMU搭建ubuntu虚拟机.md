@@ -92,16 +92,16 @@ cd qemu-5.0.1
 ```
 
 ## 6.安装ubuntu VM
-此步在图形界面进行
+以下命令启动安装，vnc viewer连接5901端口
 ```
-sudo ./x86_64-softmmu/qemu-system-x86_64 -m 4096 -smp 4 -hda ubuntu.img  -cdrom ../ubuntu-18.04.5-desktop-amd64.iso -boot dc  -net nic -net tap -machine usb=on -device usb-tablet
+sudo ./x86_64-softmmu/qemu-system-x86_64 -m 4096 -smp 4 -hda ubuntu.img  -cdrom ../ubuntu-18.04.5-desktop-amd64.iso -boot dc  -net nic -net tap -machine usb=on -device usb-tablet -vnc :1
 ```
 执行完后qemu启动，在可视化窗口进行ubuntu安装并配置网络，安装完成后关闭qemu
 
 ## 7.启动VM
-在图形界面启动可看到虚拟机可视化桌面
+以下命令启动虚拟机，vnc viewer连接5901端口可看到虚拟机可视化桌面
 ```
-sudo ./x86_64-softmmu/qemu-system-x86_64 -m 4096 -smp 4 -hda ubuntu_az.img -net nic -net tap -machine usb=on -device usb-tablet
+sudo ./x86_64-softmmu/qemu-system-x86_64 -m 4096 -smp 4 -hda ubuntu.img -net nic -net tap -machine usb=on -device usb-tablet -vnc :1
 ```
 不需要图形界面请加参数 -nographic
 
