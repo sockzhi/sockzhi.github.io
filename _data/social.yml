@@ -2,4 +2,5 @@ valine_comment:
   enable: true
   leancloud_appid: sPjOy3F6s4uianFwXunYKlkN-MdYXbMMI
   leancloud_appkey: NJGVs9WWJTTisFdMoQvt6yUw
+  region: us
   placeholder: 说点什么...
