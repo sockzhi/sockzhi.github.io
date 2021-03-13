@@ -13,10 +13,9 @@ permalink: /links.html
 </div>
 {% endfor %}
 
-[返回主页]({{ site.url }})
+[返回主页](https://{{ site.url }})
 
 <hr/>
-
   {% if site.data.social.valine_comment.enable  == true %}
   <script src="/comment/av-min.js"></script>
   <script src="/comment/Valine.min.js"></script>
