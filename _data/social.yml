@@ -1,5 +1,5 @@
 valine_comment:
-  enable: false
-  leancloud_appid: 请填入你的APP id
-  leancloud_appkey: 请填入你的APP key
+  enable: true
+  leancloud_appid: sPjOy3F6s4uianFwXunYKlkN-MdYXbMMI
+  leancloud_appkey: NJGVs9WWJTTisFdMoQvt6yUw
   placeholder: 说点什么...
