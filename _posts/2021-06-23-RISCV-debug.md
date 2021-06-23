@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RISCVç³»åˆ—ä¹‹debug
+title: RISCV系列之debug
 tags: risc riscv debug jtag openocd DM
 stickie: false
 ---
