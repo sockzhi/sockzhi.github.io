@@ -17,7 +17,7 @@ permalink: /links.html
 
 <hr/>
   {% if site.data.social.valine_comment.enable  == true %}
-  <script src="//unpkg.com/browse/leancloud-storage/dist/av-min.js"></script>
+  <script src="//unpkg.com/leancloud-storage@3/dist/av-min.js"></script>
   <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   <div id="comments"></div>
   {% include comments.html %}
