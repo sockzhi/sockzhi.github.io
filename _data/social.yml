@@ -3,4 +3,4 @@ valine_comment:
   leancloud_appid: sPjOy3F6s4uianFwXunYKlkN-MdYXbMMI
   leancloud_appkey: NJGVs9WWJTTisFdMoQvt6yUw
   placeholder: 说点什么...
-  serverURLs: 'https://spjoy3f6.api.lncldglobal.com
+  serverURLs: https://spjoy3f6.api.lncldglobal.com
