@@ -1,3 +1,9 @@
+---
+layout: post
+title: 23Fall课表（还未选课）
+tags: course
+---
+
 | Time     | Monday                               | Tuesday                                 | Wednesday                             | Thursday                               |
 |----------|--------------------------------------|-----------------------------------------|---------------------------------------|----------------------------------------|
 | 9:00AM | CSC 481-1<br>Intro to Cryptography<br>-                                |                                         | CSC 481-1<br>Intro to Cryptography<br>- |                                        |
