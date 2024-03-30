@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Install opencv on MacOS(arm64)
+title: Install&Use opencv on MacOS(arm64)
 tags: MacOS  Xcode  opencv 
 ---
-# Install opencv on MacOS(arm64)
+# Install&Use opencv on MacOS(arm64)
 
 ## Environment
 Xcode 15.1
@@ -71,6 +71,9 @@ grep -rn "\#\!\/usr\/bin\/env\ python"|grep -v python3|awk -F':' '{print $1}'|xa
 python3 opencv/platforms/apple/build_xcframework.py --out opencv-build --contrib opencv_contrib --iphoneos_archs arm64 --iphonesimulator_archs arm64 --iphoneos_deployment_target=17.2 --build_only_specified_archs
 ```
 5. Have fun and enjoy it
+
+### How to import and use
+https://medium.com/@hdpoorna/integrating-opencv-to-your-swift-ios-project-in-xcode-and-working-with-uiimages-4c614e62ac88
 
 ### Reference
 https://gist.github.com/fscm/29fd23093221cf4d96ccfaac5a1a5c90
