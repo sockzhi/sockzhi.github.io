@@ -5,6 +5,7 @@ tags: MacOS  Xcode  opencv
 ---
 # Install&Use opencv on MacOS(arm64)
 
+![install script](https://raw.githubusercontent.com/sockzhi/sockzhi.github.io/master/files/install_opencv.sh)
 ## Environment
 Xcode 15.1
 Build version 15C65
@@ -72,6 +73,7 @@ python3 opencv/platforms/apple/build_xcframework.py --out opencv-build --contrib
 ```
 5. Have fun and enjoy it
 
+![install script](https://raw.githubusercontent.com/sockzhi/sockzhi.github.io/master/files/install_opencv.sh)
 ### How to import and use
 https://medium.com/@hdpoorna/integrating-opencv-to-your-swift-ios-project-in-xcode-and-working-with-uiimages-4c614e62ac88
 
