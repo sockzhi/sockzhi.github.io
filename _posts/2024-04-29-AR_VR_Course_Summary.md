@@ -38,4 +38,6 @@ tags: AR VR Course_Project
 
 ### week 5.1
 * Demo (click photo to watch)
+<video src="https://github.com/sockzhi/sockzhi.github.io/raw/master/videos/IMG_4715.MOV" controls="controls" style="max-width: 730px;">
+</video>
 [![Alternate Text](https://github.com/sockzhi/sockzhi.github.io/blob/master/photos/2024-05-01_AR_VR/IMG_4334.png?raw=true)](https://github.com/sockzhi/sockzhi.github.io/raw/master/videos/IMG_4715.MOV "Link Title")
