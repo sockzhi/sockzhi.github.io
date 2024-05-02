@@ -14,23 +14,18 @@ tags: AR VR Course_Project
 * Create project [github repo](https://github.com/mihane-ichinose/mixartest/tree/UIkit)
 * Training regression CNN model  [code](https://github.com/sockzhi/vol_measure)
 * UI development
-
 ### week 4.26
-
 * Migrate CNN tensorflow model to coreml model [script](https://github.com/mihane-ichinose/mixartest/blob/UIkit/covert_h52mlmodel.py)
-
 * Migrate YOLOv8 to IOS
   install ultralytics first 
-
-  ```shell
-  pip install ultralytics
-  ```
+```
+pip install ultralytics
+```
   in python 
-
-  ```python
-  model = YOLO('yolov8n-seg.pt')
-  model.export(format='coreml')
-  ```
+```
+model = YOLO('yolov8n-seg.pt')
+model.export(format='coreml')
+```
 * UI improvement
 ![UI](https://github.com/sockzhi/sockzhi.github.io/blob/master/photos/2024-05-01_AR_VR/Screenshot%202024-05-01%20191435.png?raw=true)
 ![UI2](https://github.com/sockzhi/sockzhi.github.io/blob/master/photos/2024-05-01_AR_VR/Screenshot%202024-05-01%20191503.png?raw=true)
