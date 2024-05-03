@@ -1,4 +1,5 @@
 ---
+layout: post
 title: AR/VR Course Project Summary
 tags: AR VR Course_Project
 ---
@@ -6,6 +7,7 @@ tags: AR VR Course_Project
 ## Plan Overview
 ![jira timeline](https://github.com/sockzhi/sockzhi.github.io/blob/master/photos/2024-05-01_AR_VR/ar_mixology_assistant_2024-05-01_05.22pm.png?raw=true)
 ## Weekly update:
+
 ### week 4.19
 * [How to install and use opencv on MacOS](https://blog.binaryzhi.com/2024/03/30/install-opencv-xcode15.html)
 * Read papers [Artificial intelligence to estimate wine volume from single-view images](https://www.sciencedirect.com/science/article/pii/S240584402201845X), 
@@ -13,6 +15,7 @@ tags: AR VR Course_Project
 * Create project [github repo](https://github.com/mihane-ichinose/mixartest/tree/UIkit)
 * Training regression CNN model  [code](https://github.com/sockzhi/vol_measure)
 * UI development
+
 ### week 4.26
 * Migrate CNN tensorflow model to coreml model [script](https://github.com/mihane-ichinose/mixartest/blob/UIkit/covert_h52mlmodel.py)
 * Migrate YOLOv8 to IOS
@@ -20,7 +23,7 @@ tags: AR VR Course_Project
 ```
 pip install ultralytics
 ```
-  in python 
+in python 
 ```
 model = YOLO('yolov8n-seg.pt')
 model.export(format='coreml')
