@@ -34,8 +34,7 @@ model.export(format='coreml')
 * Make poster![Poster](https://github.com/sockzhi/sockzhi.github.io/blob/master/photos/2024-05-01_AR_VR/Screenshot%202024-05-01%20183728.png?raw=true)
 
 ### week 5.1
-* Demo (click photo to watch)
-<video src="https://github.com/sockzhi/sockzhi.github.io/raw/master/videos/IMG_4715.MOV" controls="controls" style="max-width: 730px;">
-</video>
+* Demo (click  to watch)
+<iframe src="https://drive.google.com/file/d/1dRy9bVnc1ig6a-yuf18wF0cqOUIq4946/preview" width="640" height="480" allow="autoplay"></iframe>
 * Team photo
 ![](https://github.com/sockzhi/sockzhi.github.io/blob/master/photos/2024-05-01_AR_VR/IMG_4334.png?raw=true)
